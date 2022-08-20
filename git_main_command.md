@@ -28,6 +28,16 @@
 - git merge new-feature
 - git branch -d new-feature
 
+## Tornare indietro di commit:
+- git log --oneline   # Elenca tutte le commit
+- git checkout <id_commit>
+
+## Verificare se remote ha una commit più recente
+- git fetch origin
+- git checkout origin main
+- git log
+- git checkout main
+- git merge origin/main
 
 ## Other command
 - git branch   # Elenca tutte le branch locali
