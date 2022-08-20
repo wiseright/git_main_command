@@ -38,6 +38,7 @@
 - git log
 - git checkout main
 - git merge origin/main
+- [git diff main..origin/main]
 
 ## Other command
 - git branch   # Elenca tutte le branch locali
